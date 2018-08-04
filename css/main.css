@@ -444,6 +444,8 @@ main {
 @media screen and (max-width: 500px) {
   main #home h2 {
     margin-top: 10vh; }
+  h2.sm-heading {
+    font-size: 1rem; }
   .projects .items p {
     font-size: 0.7rem;
     padding: 0 !important; }
