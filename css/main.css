@@ -446,6 +446,11 @@ main {
     margin-top: 10vh; }
   h2.sm-heading {
     font-size: 1rem; }
+  .icons {
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .icons .fa-2x {
+      font-size: 1.5rem; }
   .projects .items p {
     font-size: 0.7rem;
     padding: 0 !important; }
