@@ -58,3 +58,6 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// Add date to footer
+document.getElementById("date").innerHTML = new Date().getFullYear();

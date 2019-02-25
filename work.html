@@ -1,140 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Web Developer Portfolio" />
+    <meta
+      name="keywords"
+      content="HTML,CSS,JavaScript,React,Angular,ES6,Bootstrap"
+    />
+    <meta name="author" content="Sachin Jadhav" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link rel="icon" href="./img/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Web Developer Portfolio">
-  <meta name="keywords" content="HTML,CSS,JavaScript,React,Angular,ES6,Bootstrap">
-  <meta name="author" content="Sachin Jadhav">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-  <link rel="icon" href="./img/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body>
-  <div class="logo">
-    <a href="index.html">
-      <img src="./img/logo.png" alt="">
-    </a>
-  </div>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
+  <body>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./img/logo.png" alt="" />
+      </a>
     </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Reach Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">
+        My
+        <span class="text-secondary">Work</span>
+      </h1>
+      <div class="projects">
+        <h3>Social Network App</h3>
+        <div class="item">
+          <p>
+            Social Network app built using MERN stack, with Heroku in the
+            backend.
+          </p>
+          <a href="https://socialnetworkapp.herokuapp.com/" target="_blank">
+            <img
+              src="./img/projects/project1.JPG"
+              alt="Project - Social Network App"
+            />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
+          <a
+            href="https://socialnetworkapp.herokuapp.com/"
+            target="_blank"
+            class="button-proj"
+          >
+            <i class="fas fa-external-link-alt"></i> Project
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+          <a
+            href="https://github.com/theSachinJadhav/social-network"
+            target="_blank"
+            class="button-git"
+          >
+            <i class="fab fa-github"></i> Github
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            Reach Me
+        </div>
+        <h3>Travel Agency</h3>
+        <div class="item">
+          <p>A travel agency website using Materialize CSS library.</p>
+          <a href="https://travel-agency.netlify.com" target="_blank">
+            <img
+              src="./img/projects/project2.JPG"
+              alt="Project - Travel Agency"
+            />
           </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+          <a
+            href="https://travel-agency.netlify.com"
+            target="_blank"
+            class="button-proj"
+          >
+            <i class="fas fa-external-link-alt"></i> Project
+          </a>
+          <a
+            href="https://github.com/theSachinJadhav/travel-agency"
+            target="_blank"
+            class="button-git"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <h3>Movie Info App</h3>
+        <div class="item">
+          <p>
+            A movie info search app fetching info from IMDB API using Vanilla
+            JavaScript and ES6 fetch.
+          </p>
+          <a href="https://movie-info.netlify.com/" target="_blank">
+            <img
+              src="./img/projects/project4.JPG"
+              alt="Project - Movie Info App"
+            />
+          </a>
+          <a
+            href="https://movie-info.netlify.com/"
+            target="_blank"
+            class="button-proj"
+          >
+            <i class="fas fa-external-link-alt"></i> Project
+          </a>
+          <a
+            href="https://github.com/theSachinJadhav/movie-info"
+            target="_blank"
+            class="button-git"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <h3>English Academy</h3>
+        <div class="item">
+          <p>
+            A simple website for an English Classes Institute created using
+            Bootstrap.
+          </p>
+          <a href="https://dhagesclasses.netlify.com" target="_blank">
+            <img
+              src="./img/projects/project3.JPG"
+              alt="Project - English Academy"
+            />
+          </a>
+          <a
+            href="https://dhagesclasses.netlify.com/"
+            target="_blank"
+            class="button-proj"
+          >
+            <i class="fas fa-external-link-alt"></i> Project
+          </a>
+          <a
+            href="https://github.com/theSachinJadhav/english-academy"
+            target="_blank"
+            class="button-git"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <h3>Vanilla JavaScript Cart App</h3>
+        <div class="item">
+          <p>
+            Shopping Cart App demo created using Vanilla JS and CSS, with PayPal
+            payment option.
+          </p>
+          <a href="https://shoppingcartjs.netlify.com/">
+            <img
+              src="./img/projects/project5.JPG"
+              target="_blank"
+              alt="Project - Vanilla JavaScript Cart App"
+            />
+          </a>
+          <a
+            href="https://shoppingcartjs.netlify.com/"
+            class="button-proj"
+            target="_blank"
+          >
+            <i class="fas fa-external-link-alt"></i> Project
+          </a>
+          <a
+            href="https://github.com/theSachinJadhav/vanillaCartJS"
+            class="button-git"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </main>
 
-  <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <div class="projects">
-      <h3>Social Network App</h3>
-      <div class="item">
-        <p>Social Network app built using MERN stack, with Heroku in the backend.</p>
-        <a href="https://socialnetworkapp.herokuapp.com/" target="_blank">
-          <img src="./img/projects/project1.JPG" alt="Project - Social Network App">
-        </a>
-        <a href="https://socialnetworkapp.herokuapp.com/" target="_blank" class="button-proj">
-          <i class="fas fa-external-link-alt"></i> Project
-        </a>
-        <a href="https://github.com/theSachinJadhav/social-network" target="_blank" class="button-git">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <h3>Travel Agency</h3>
-      <div class="item">
-        <p>A travel agency website using Materialize CSS library.</p>
-        <a href="https://travel-agency.netlify.com" target="_blank">
-          <img src="./img/projects/project2.JPG" alt="Project - Travel Agency">
-        </a>
-        <a href="https://travel-agency.netlify.com" target="_blank" class="button-proj">
-          <i class="fas fa-external-link-alt"></i> Project
-        </a>
-        <a href="https://github.com/theSachinJadhav/travel-agency" target="_blank" class="button-git">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <h3>Movie Info App</h3>
-      <div class="item">
-        <p>A movie info search app fetching info from IMDB API using Vanilla JavaScript and ES6 fetch. </p>
-        <a href="https://movie-info.netlify.com/" target="_blank">
-          <img src="./img/projects/project4.JPG" alt="Project - Movie Info App">
-        </a>
-        <a href="https://movie-info.netlify.com/" target="_blank" class="button-proj">
-          <i class="fas fa-external-link-alt"></i> Project
-        </a>
-        <a href="https://github.com/theSachinJadhav/movie-info" target="_blank" class="button-git">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <h3>English Academy</h3>
-      <div class="item">
-        <p>A simple website for an English Classes Institute created using Bootstrap.</p>
-        <a href="https://dhagesclasses.netlify.com" target="_blank">
-          <img src="./img/projects/project3.JPG" alt="Project - English Academy">
-        </a>
-        <a href="https://dhagesclasses.netlify.com/" target="_blank" class="button-proj">
-          <i class="fas fa-external-link-alt"></i> Project
-        </a>
-        <a href="https://github.com/theSachinJadhav/english-academy" target="_blank" class="button-git">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <h3>Vanilla JavaScript Cart App</h3>
-      <div class="item">
-        <p>Shopping Cart App demo created using Vanilla JS and CSS, with PayPal payment option.</p>
-        <a href="https://shoppingcartjs.netlify.com/">
-          <img src="./img/projects/project5.JPG" target="_blank" alt="Project - Vanilla JavaScript Cart App">
-        </a>
-        <a href="https://shoppingcartjs.netlify.com/" class="button-proj" target="_blank">
-          <i class="fas fa-external-link-alt"></i> Project
-        </a>
-        <a href="https://github.com/theSachinJadhav/vanillaCartJS" class="button-git" target="_blank">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-    </div>
-  </main>
+    <footer id="main-footer">Copyright &copy; <span id="date"></span></footer>
 
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>

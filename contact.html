@@ -1,126 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Web Developer Portfolio" />
+    <meta
+      name="keywords"
+      content="HTML,CSS,JavaScript,React,Angular,ES6,Bootstrap"
+    />
+    <meta name="author" content="Sachin Jadhav" />
+    <link rel="icon" href="./img/logo.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact Me</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Web Developer Portfolio">
-  <meta name="keywords" content="HTML,CSS,JavaScript,React,Angular,ES6,Bootstrap">
-  <meta name="author" content="Sachin Jadhav">
-  <link rel="icon" href="./img/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Contact Me</title>
-</head>
-
-<body>
-  <div class="logo">
-    <a href="index.html">
-      <img src="./img/logo.png" alt="">
-    </a>
-  </div>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
+  <body>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./img/logo.png" alt="" />
+      </a>
     </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="contact.html" class="nav-link">
-            Reach Me
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <main id="contact">
-    <h1 class="lg-heading">
-      Reach
-      <span class="text-secondary">Me</span>
-    </h1>
-
-    <div class="wrapper">
-      <div class="info">
-        <h3>Sachin
-          <span>Jadhav</span>
-        </h3>
-        <ul>
-          <li>
-            <i class="fas fa-envelope"></i>sachin0321@gmail.com</li>
-          <li>
-            <i class="fas fa-phone"></i>9739634917</li>
-          <li>
-            <i class="fas fa-map-marker-alt"></i>Bangalore, KA</li>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">
+              Reach Me
+            </a>
+          </li>
         </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading">
+        Reach
+        <span class="text-secondary">Me</span>
+      </h1>
+
+      <div class="wrapper">
+        <div class="info">
+          <h3>
+            Sachin
+            <span>Jadhav</span>
+          </h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i>sachin0321@gmail.com</li>
+            <li><i class="fas fa-phone"></i>9739634917</li>
+            <li><i class="fas fa-map-marker-alt"></i>Bangalore, KA</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form
+            action="https://formspree.io/sachin0321@gmail.com"
+            method="POST"
+          >
+            <p>
+              <label>Name</label>
+              <input type="text" name="name" required />
+            </p>
+            <p>
+              <label>Company</label>
+              <input type="text" name="company" />
+            </p>
+            <p>
+              <label>Email</label>
+              <input type="email" name="_replyto" required />
+            </p>
+            <p>
+              <label>Phone</label>
+              <input type="text" name="phone" />
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea type="text" name="message" rows="5"></textarea>
+            </p>
+            <p class="full">
+              <button>Submit</button>
+            </p>
+            <input type="hidden" name="_subject" value="Portfolio Contact" />
+            <input type="text" name="_gotcha" style="display:none" />
+          </form>
+        </div>
       </div>
-      <div class="contact-form">
-        <form action="https://formspree.io/sachin0321@gmail.com" method="POST">
-          <p>
-            <label>Name</label>
-            <input type="text" name="name" required>
-          </p>
-          <p>
-            <label>Company</label>
-            <input type="text" name="company">
-          </p>
-          <p>
-            <label>Email</label>
-            <input type="email" name="_replyto" required>
-          </p>
-          <p>
-            <label>Phone</label>
-            <input type="text" name="phone">
-          </p>
-          <p class="full">
-            <label>Message</label>
-            <textarea type="text" name="message" rows="5"></textarea>
-          </p>
-          <p class="full">
-            <button>Submit</button>
-          </p>
-          <input type="hidden" name="_subject" value="Portfolio Contact" />
-          <input type="text" name="_gotcha" style="display:none" />
-        </form>
-      </div>
-    </div>
+    </main>
 
+    <footer id="main-footer">Copyright &copy; <span id="date"></span></footer>
 
-
-
-
-
-
-
-  </main>
-
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
